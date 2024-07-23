@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM rabbitmq:3.10-alpine
+FROM rabbitmq:3.13.5-alpine
 
 RUN set eux; \
 	rabbitmq-plugins enable --offline rabbitmq_management; \
